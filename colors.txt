@@ -1,0 +1,12 @@
+blue
+green
+orange
+red 
+purple
+white
+olive
+camel
+charcoal
+grey
+pink
+megenta

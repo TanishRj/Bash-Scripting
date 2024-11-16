@@ -1,0 +1,35 @@
+#!/bin/bash
+
+str1='programming'
+str2='programming'
+
+if [ "$str1" = "$str2" ]; then
+	echo "Strings are equal"
+elif [ "$str1" \< "$str2" ]; then
+	echo "String 2 is greater"
+elif [ "$str1" \> "$str2" ]; then
+	echo "String 1 is greater than string 2"
+else
+	echo "Strings are not equal"
+fi
+
+str3='ZYPHRUS'
+
+if [ -z $str3 ]; then
+	echo "String is Empty"
+elif [ -n $str3 ]; then
+	echo "String is non-empty"
+fi
+# STRING LENGTH OPERATIONS
+# 1. ${#string}
+# 2. expr length "$string"
+# 3. expr "$string" :'.*'
+# 4. $str | wc -c
+# 5. $str | awk '{print length}'
+
+echo "Length of string is $str3: ${#str3}"
+
+
+# SUBSTRING
+substr="${str3:2:3}"
+echo "$substr"

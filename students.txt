@@ -1,0 +1,5 @@
+1	tanish	c      82
+2	raj	c++    80
+3 	shyam 	c#     70
+4	raju	java   79
+5	kaju	python 80
